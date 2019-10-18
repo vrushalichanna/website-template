@@ -155,7 +155,7 @@
          visibility: hidden;
          padding: 0px 0px;
          opacity: 0;
-         / border-top: 3px solid #fec722;
+         border-top: 3px solid #fec722;
      }
      
      header .header-body .edu-navbar .edu-nav .nav li ul.dropdown {
@@ -194,11 +194,9 @@
      
      .dropdown-item:focus,
      .dropdown-item:hover {
-         /* color: #16181b; */
          text-decoration: none;
          background-color: #fec722;
          margin-left: 0px;
-         /* background: #fec722; */
          color: #ffffff;
      }
      
@@ -228,7 +226,8 @@
          font-weight: 700;
          font-family: Open Sans, sans-serif;
      }
-     /* -------------------Footer------------------- */
+     /* ====================================================================================== */
+     /************************************* Footer ******************************************** */
      
      footer {
          background: transparent url('C:/html/EduRead/footer-bg.jpg') no-repeat center center/cover;
@@ -310,7 +309,8 @@
          font-weight: 600;
          font-size: 13px;
      }
-     /* *****************************Button ***************************** */
+     /* ================================================================================= ======*/
+     /* ******************************************** Button ********************************** */
      
      .button {
          padding: 10px 30px 10px 30px;
@@ -336,13 +336,8 @@
          border: 1px solid #fec722;
          color: #333333;
      }
+     /* ==================================================================== */
      /******************** video section***********************************  */
-     /* .counter-area {
-    background: transparent url('C:/html/EduRead/video-bg.jpg') no-repeat center center/cover;
-    min-height: 500px;
-    position: relative;
-    padding: 100px 0;
-} */
      
      .video-main-area {
          background: transparent url('C:/html/EduRead/video-bg.jpg') no-repeat center center/cover;
@@ -393,7 +388,8 @@
          padding-top: 10px;
          width: 41px;
      }
-     /* **********************************Courses section*********************************** */
+     /* ===================================================================================== */
+     /* ********************************** Courses section *********************************** */
      
      .courses .courses-1 {
          background: #ffffff;
@@ -467,10 +463,6 @@
      
      .single-courses .courses-content-box .courses-content-bottom {
          margin-top: 41px;
-     }
-     
-     .single-courses .courses-content-box .courses-content-bottom ul li:nth-child(2) {
-         float: left;
      }
      
      .single-courses .courses-content-box .courses-content-bottom ul li {
@@ -613,12 +605,11 @@
          left: 0;
          transition: all 0.3s ease-in-out;
      }
-     /* **************************Register Image********************************** */
+     /* ========================================================================= */
+     /* ************************** Header Image********************************** */
      
      .header-body {
          background: url('C:/html/EduRead/register-bg.jpg');
-         /* min-height: 360px; */
-         /* background-size: cover; */
          position: relative;
          overflow-x: hidden;
      }
@@ -654,7 +645,8 @@
      .btn .home:active {
          color: #fec722;
      }
-     /* ======================Coursee Grid================================================= */
+     /* =================================================================================== */
+     /* ======================Courses Grid================================================= */
      
      .courses header .header-body .intro-text p span {
          font-size: 14px;
@@ -775,7 +767,6 @@
          line-height: 1.4;
          text-align: center;
          text-transform: uppercase;
-         /* color: #727272; */
      }
      
      .learnpro-register-form {
@@ -808,7 +799,8 @@
          padding: 15px 0;
          box-shadow: none;
      }
-     /* ===========================LOgin Page==================================== */
+     /* =============================================================================== */
+     /* ===========================LOgin Page============================================*/
      
      .login-area {
          background: #fafafa;
@@ -903,7 +895,8 @@
          color: #fec722;
          margin-right: 15px;
      }
-     /* =======================header ========================================== */
+     /* ============================================================================ */
+     /* =============================header ========================================== */
      
      .second-section-last-row-number {
          font-size: 70px;

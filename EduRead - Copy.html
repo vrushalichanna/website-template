@@ -1,4 +1,4 @@
-<html>
+<html class="no-js" lang="zxx">
 
 <head>
     <meta charset="utf-8">
@@ -7,26 +7,32 @@
     <meta name="keywords" content="college, education, institute, responsive, school, teacher, template, university">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>EduRead - Education HTML5 Template</title>
-    <link rel="shortcut icon" href="/EduRead/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="C:/html/EduRead/favicon.ico" type="image/x-icon">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Font Awesome -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Popup -->
+    <link href="css/assets/magnific-popup.css" rel="stylesheet">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:600,700%7COpen+Sans:400,600" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="C:html/EduRead/style.css">
-
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
-<body class="courses" style="overflow: visible;overflow-x: hidden">
+<body style="overflow: visible;">
     <!-- Preloader -->
-
-
+    <div id="preloader" style="display: none;">
+        <div id="status" style="display: none;">&nbsp;</div>
+    </div>
     <header id="header">
-
         <div class="header-top">
             <div class="container">
                 <div class="row">
@@ -45,92 +51,123 @@
                 </div>
             </div>
         </div>
-    </header>
+        <!-- Ends: .header-top -->
+        <header class="sticky-top">
+            <div class="header-bottom-bar fixed " style="background-color:rgba(255, 255, 255, 0.95)">
+                <div class="container">
+                    <div class="row">
 
-    <header class="sticky-top">
-        <div class="header-bottom-bar fixed " style="background-color:rgba(255, 255, 255, 0.95)">
-            <div class="container">
-                <div class="row">
+                        <nav class="navbar navbar-expand-md sticky-top bg-transparent navbar-light" style="width: 100%; margin-bottom: 0;">
 
-                    <nav class="navbar navbar-expand-md sticky-top bg-transparent navbar-light" style="width: 100%; margin-bottom: 0;">
+                            <!-- <a href="#"> -->
+                            <a href="EduRead.html" class="navbar-brand  data-scroll margin-hamburger margin-logo"><span><img src="C:/html/EduRead/logo.png" alt=""><span class="text-design">EduRead</span></span></a>
+                            <!-- </a> -->
+                            <button class="navbar-toggler margin-button" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+<span class="navbar-toggler-icon"></span>
+</button>
+                            <div class="collapse navbar-collapse" id="collapsibleNavbar">
 
-                        <!-- <a href="#"> -->
-                        <a href="EduRead.html" class="navbar-brand  data-scroll margin-hamburger margin-logo"><span><img src="/EduRead/logo.png" alt=""><span class="text-design">EduRead</span></span></a>
-                        <!-- </a> -->
-                        <button class="navbar-toggler margin-button" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-                        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                                <ul class="navbar-nav " style="margin-left: 25%">
 
-                            <ul class="navbar-nav " style="margin-left: 25%">
+                                    <li class="nav-item active"><a class="nav-link" href="banner.html">Home</a></li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link" href="events.html" id="navbardrop" data-toggle="dropdown" style="color: black">Events</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="events.html">EVENT Version One</a>
+                                            <a class="dropdown-item" href="events.html">EVENT Version Two</a>
+                                            <a class="dropdown-item" href="events.html">EVENT Version Three</a>
+                                            <a class="dropdown-item" href="events.html">EVENT Version Four</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link" href="courses.html" id="navbardrop" data-toggle="dropdown" style="color:black">Courses</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="courses.html">COURSES Version One</a>
+                                            <a class="dropdown-item" href="courses.html">COURSES Version Two</a>
+                                            <a class="dropdown-item" href="courses.html">COURSES Version Three</a>
+                                            <a class="dropdown-item" href="courses.html">COURSES Version Four</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="Contact.html" style="color: black">Contact</a></li>
+                                    <li class="nav-item"><i class="fa fa-search" style="padding-top: 10px; padding-left: 1rem;padding-right:1rem;"><a
+class="nav-link" href="#"></a></i></li>
 
-                                <li class="nav-item active"><a class="nav-link" href="banner.html">Home</a></li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link" href="events.html" id="navbardrop" data-toggle="dropdown" style="color: black">Events</a>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="events.html">EVENT Version One</a>
-                                        <a class="dropdown-item" href="events.html">EVENT Version Two</a>
-                                        <a class="dropdown-item" href="events.html">EVENT Version Three</a>
-                                        <a class="dropdown-item" href="events.html">EVENT Version Four</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link" href="courses.html" id="navbardrop" data-toggle="dropdown" style="color:black">Courses</a>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="courses.html">COURSES Version One</a>
-                                        <a class="dropdown-item" href="courses.html">COURSES Version Two</a>
-                                        <a class="dropdown-item" href="courses.html">COURSES Version Three</a>
-                                        <a class="dropdown-item" href="courses.html">COURSES Version Four</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item"><a class="nav-link" href="Contact.html" style="color: black">Contact</a></li>
-                                <li class="nav-item"><i class="fa fa-search" style="padding-top: 10px; padding-left: 1rem;padding-right:1rem;"><a
-        class="nav-link" href="#"></a></i></li>
+                                </ul>
+                            </div>
 
-                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </header>
+
+        <div class="">
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <!-- <li data-target="#myCarousel" data-slide-to="2"></li> -->
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+
+                    <div class="item active">
+                        <img src="c:/html/EduRead/slider-02.jpg" alt="Los Angeles" style="width:100%;">
+                        <div class="carousel-caption" style="top:0">
+
                         </div>
+                    </div>
 
-                    </nav>
+                    <div class="item">
+                        <img src="c:/html/EduRead/slider-02.jpg" alt="Chicago" style="width:100%;">
+                        <div class="carousel-caption" style="top:0">
+
+                        </div>
+                    </div>
+                    <!-- 
+                    <div class="item">
+                        <img src="c:/html/EduRead/slider-01.jpg" alt="New York" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>New York</h3>
+                            <p>We love the Big Apple!</p>
+                        </div>
+                    </div> -->
+
                 </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
         </div>
-        </div>
-    </header>
-
-    <div class="header-body">
-
-        <section>
-            <div class="row">
-                <!-- <div class="col-sm-1" style="color: white"></div> -->
-                <div class="col-sm-12" style="  text-align: center;
-                margin-top: 80px;  font-family: monospace, sans-serif; font-weight: 700; color: #ffffff; font-size: 50px; MARGIN-TOP: 10%; ">
-                    Courses Grid
-                </div>
-
-            </div>
-
-            <div class="row">
-
-                <div class="col-sm-12" style=" text-align: center;   font-family: monospace, sans-serif; font-weight: 700; color: #ffffff; font-size: 18px;  ">
-                    <p><span><a href="" style="color: white">Home <i class="fa fa-angle-right"></i></a></span> <span class="b-active">Courses Grid</span></p>
-                </div>
-
-            </div>
 
 
-        </section>
-
-
-        <!-- **********************************Courses********************************************* -->
         <section class="Courses-area">
             <div class="container">
-
+                <div class="row">
+                    <div class="col-sm-12 section-header-box">
+                        <div class="section-header">
+                            <h2>Popular Courses</h2>
+                        </div>
+                        <!-- ends: .section-header -->
+                    </div>
+                </div>
 
                 <div class="row courses-r-margin-bottom">
                     <div class="col-sm-4 single-courses-box">
                         <div class="single-courses">
                             <figure>
-                                <div class="figure-img"><img src="/EduRead/courses-01.jpg" alt="" class="img-fluid"></div>
+                                <div class="figure-img"><img src="C:/html/EduRead/courses-01.jpg" alt="" class="img-fluid"></div>
                                 <figcaption>
                                     <div><a href="#" class="read_more-btn">Apply Now</a></div>
                                 </figcaption>
@@ -168,7 +205,7 @@
                     <div class="col-sm-4 single-courses-box">
                         <div class="single-courses">
                             <figure>
-                                <div class="figure-img"><img src="/EduRead/courses-02.jpg" alt="" class="img-fluid"></div>
+                                <div class="figure-img"><img src="C:/html/EduRead/courses-02.jpg" alt="" class="img-fluid"></div>
                                 <figcaption>
                                     <div><a href="#" class="read_more-btn">Apply Now</a></div>
                                 </figcaption>
@@ -203,7 +240,7 @@
                     <div class="col-sm-4 single-courses-box">
                         <div class="single-courses">
                             <figure>
-                                <div class="figure-img"><img src="/EduRead/courses-03.jpg" alt="" class="img-fluid"></div>
+                                <div class="figure-img"><img src="C:/html/EduRead/courses-03.jpg" alt="" class="img-fluid"></div>
                                 <figcaption>
                                     <div><a href="#" class="read_more-btn">Apply Now</a></div>
                                 </figcaption>
@@ -241,7 +278,7 @@
                     <div class="col-sm-4 single-courses-box">
                         <div class="single-courses">
                             <figure>
-                                <div class="figure-img"><img src="/EduRead/courses-04.jpg" alt="" class="img-fluid"></div>
+                                <div class="figure-img"><img src="C:/html/EduRead/courses-04.jpg" alt="" class="img-fluid"></div>
                                 <figcaption>
                                     <div><a href="#" class="read_more-btn">Apply Now</a></div>
                                 </figcaption>
@@ -276,7 +313,7 @@
                     <div class="col-sm-4 single-courses-box">
                         <div class="single-courses">
                             <figure>
-                                <div class="figure-img"><img src="/EduRead/courses-05.jpg" alt="" class="img-fluid"></div>
+                                <div class="figure-img"><img src="C:/html/EduRead/courses-05.jpg" alt="" class="img-fluid"></div>
                                 <figcaption>
                                     <div><a href="#" class="read_more-btn">Apply Now</a></div>
                                 </figcaption>
@@ -311,7 +348,7 @@
                     <div class="col-sm-4 single-courses-box">
                         <div class="single-courses">
                             <figure>
-                                <div class="figure-img"><img src="/EduRead/courses-02.jpg" alt="" class="img-fluid"></div>
+                                <div class="figure-img"><img src="C:/html/EduRead/courses-02.jpg" alt="" class="img-fluid"></div>
                                 <figcaption>
                                     <div><a href="#" class="read_more-btn">Apply Now</a></div>
                                 </figcaption>
@@ -344,17 +381,26 @@
                     <!-- Ends: . -->
                 </div>
 
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="event-bottom-btn">
-                            <a href="#" class="view-more-item">view all courses</a>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
 
-    </div>
+        <!-- *****************************************Video section ************************************** -->
+
+        <section class="video-main-area video">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 video-play-btn">
+                        <!-- <iframe class="embed-responsive-item " src="https://www.youtube.com/watch?v=uXFUl0KcIkA"></iframe> -->
+                        <a href="https://www.youtube.com/watch?v=uXFUl0KcIkA" target="_blank" class="video-iframe"><i class="fa fa-play"></i></a>
+                    </div>
+
+                    <div class="video-content">
+                        <h2>Take a Tour EduRead Campus</h2>
+                    </div>
+                    <!-- ends: .section-header -->
+                </div>
+            </div>
+        </section>
 </body>
 
 <footer>
